@@ -305,3 +305,19 @@ ul li {
         opacity: 1;
     }
 }
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contributor {
+    width: 80%;
+}
+
+.contributor ul li {
+    text-align: center;
+}
