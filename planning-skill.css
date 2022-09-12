@@ -285,3 +285,23 @@ ul li {
     animation-delay: 7s;
     width: 35px;
 }
+
+.jellyfish img {
+    width: 200px;
+    animation: jelly 7s linear infinite;
+}
+
+@keyframes  jelly{
+    0%{
+        transform: translateY(8vh);
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-8vh);
+    }
+    100%{
+        transform: translateY(8vh);
+        opacity: 1;
+    }
+}
