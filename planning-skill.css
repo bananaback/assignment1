@@ -169,8 +169,19 @@ ul li {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .header .nav {
+    .container {
+        display: flex;
         flex-direction: column;
-        height: 400px;
+    }
+    .container .nav {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .header {
+        height: 200px;
+    }
+    .q1, .q23, .q4 {
+        text-align: center;
     }
 }
