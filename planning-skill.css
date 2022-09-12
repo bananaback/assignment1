@@ -196,6 +196,7 @@ ul li {
 .bubbles img {
     width: 50px;
     animation: bubble 7s linear infinite;
+    pointer-events:none;
 }
 
 .bubbles {
@@ -204,7 +205,7 @@ ul li {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -300px;
+    bottom: -350px;
 }
 
 .bubbles2 img {
@@ -316,6 +317,10 @@ ul li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.footer > * {
+    text-align: center;
 }
 
 .contributor {
