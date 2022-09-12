@@ -12,6 +12,10 @@
     --purple: #8860d0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--dkdkblue);
     background: linear-gradient(20deg, rgb(5, 15, 78) 0%, rgb(31, 108, 201) 75%, rgba(184,202,244,1) 100%);
@@ -320,4 +324,8 @@ ul li {
 
 .contributor ul li {
     text-align: center;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
